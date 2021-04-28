@@ -1,5 +1,6 @@
 {
 .appVersion = "3075";
+.storedFileType = com.schriftgestaltung.glyphs;
 .formatVersion = 3;
 DisplayStrings = (
 Currant,
@@ -38836,24 +38837,56 @@ unicode = 731;
 {
 export = 0;
 glyphname = _instroke;
-lastChange = "2021-04-28 16:39:33 +0000";
+lastChange = "2021-04-28 16:42:43 +0000";
 layers = (
 {
 layerId = m003;
-width = 1200;
+shapes = (
+{
+closed = 0;
+nodes = (
+(0,0,l),
+(130,0,ls,{
+name = instroke_raise;
+}),
+(197,0,o),
+(249,52,o),
+(249,120,cs),
+(249,172,l)
+);
 }
 );
+width = 49;
+}
+);
+changeCount = 16;
 },
 {
 export = 0;
 glyphname = _outstroke;
-lastChange = "2021-04-28 16:39:39 +0000";
+lastChange = "2021-04-28 16:43:27 +0000";
 layers = (
 {
 layerId = m003;
-width = 1200;
+shapes = (
+{
+closed = 0;
+nodes = (
+(49,0,l),
+(-81,0,ls,{
+name = instroke_raise;
+}),
+(-148,0,o),
+(-200,52,o),
+(-200,120,cs),
+(-200,172,l)
+);
 }
 );
+width = 49;
+}
+);
+changeCount = 23;
 }
 );
 instances = (
